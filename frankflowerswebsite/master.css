@@ -1,63 +1,70 @@
-#wrapper {
+* {
+  box-sizing: border-box;
+}
+
+/* #wrapper {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 
 
 header {
   margin-left: 2%;
-  margin-top: 2%;
-  max-width: 100%;
+  margin-top: .25%;
+  max-width: 13%;
   height: auto;
+  float: left;
 }
 
 body {
-  background-image: url(photos/blurequipoisecover.PNG);
+ /*  background-image: url(photos/blurequipoisecover.PNG);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+  background-color: rgb(255, 255, 255);
   background-size: cover;
   background-position: center;
-  color: rgb(88, 73, 57);
   font-family: 'Lato', sans-serif;
-  text-align: left;
 }
 
 
 
 
 nav {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  text-align: center;
-  font-weight: bold;
-  word-spacing: 1.4em;
+  width: 100%;
   color: rgb(0, 0, 0);
   font-family: 'Lato', sans-serif;
-  padding: 5px;
+  padding: 3em;
+  display:inline;
 }
+
+
 
 nav a {
   font-weight: bold;
   font-size: 200%;
   color: rgb(0, 0, 0);
   font-family: 'Lato', sans-serif;
-  text-align: center;
   text-decoration: none;
-  
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 1.5%;
+  margin-left: 4%;
 }
 
 nav a:hover {
-  color: rgb(255, 255, 255);
+  color: #87cbff;
+  display: inline-block;
   /* background-color: #0054a6; */
-  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
+ /*  background-color: #87cbff;
   padding: 10px;
-  border: 3px solid #000000;
-}
+  border: 3px solid #000000; */
+} 
 
 main {
   width: 100%;
@@ -66,17 +73,18 @@ main {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  clear: left;
 }
 
 main {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #000000;
   font-size: 2em;
 }
 
 main a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #000000;
   font-size: 2em;
   padding: 10px;
 }
@@ -92,7 +100,7 @@ main a {
 
 main a:hover {
   /* color: rgb(0, 0, 0); */
-  color: #0054a6;
+  color: #87cbff;
 }
 
 .listen {
@@ -100,12 +108,12 @@ main a:hover {
   color: #000000;
   background-color: rgb(255, 255, 255);
   border: 2px solid #000000;
-  border-radius: 10%;
+  /* border-radius: 10%; */
 }
 
-.listen:hover {
-  color: rgb(255, 255, 255);
-  background-color: #000000;
+.listen a:hover {
+  color: #000000;
+  background-color: #87cbff;
   /* color: #000000;
   background-color: #0054a6; */
 }
@@ -116,13 +124,13 @@ footer {
   margin-top: 45%;
   text-align: center;
   font-size: 1.2em;
-  color: rgb(255, 255, 255);
+  color: #000000;
 
 }
 
 footer a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #000000;
   padding: 10% 3%;
 }
 
@@ -164,14 +172,14 @@ img {
   margin: 1px;
 }
 
-.logo {
+/* .logo {
   max-width: 10%;
   height: auto;
   float: left;
-}
+} */
 
 .bio {
-  background-color: #000000;
+ /*  background-color: #000000; */
   font-size: .7em;
   text-align: left;
   padding: 25px;
@@ -180,7 +188,7 @@ img {
 }
 
 .sub {
-  background-color: #000000;
+  /* background-color: #000000; */
   font-size: 1.5em;
   text-align: center;
   padding: 25px;
@@ -192,6 +200,11 @@ img {
   background-color: white;
 }
 
+.onethird {
+  width: 33%;
+  float: left;
+  margin-top: 1.6%;
+}
 
 
 #table {
@@ -201,25 +214,32 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  margin-top: 5%;
 }
+
+
 
 #table td, #table th {
   color: #000000;
-  border: 1px solid #ddd;
+  border: .05em solid #000000;
   padding: 8px;
 }
 
-#table tr:nth-child(even){background-color: #ffffff9d;}
-#table tr:nth-child(odd){background-color: #ffffff9d;}
+/* #table tr:nth-child(even){background-color: #ffffff9d;}
+#table tr:nth-child(odd){background-color: #ffffff9d;} */
 
-#table tr:hover {background-color: #0054a6;}
+/* #87cbff  ff blue*/
 
 #table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #000000;
-  color: white;
+  background-color: #87cbff;
+  color: #000000;
+}
+
+.inquiries {
+  margin-top: 9%;
 }
 
 
