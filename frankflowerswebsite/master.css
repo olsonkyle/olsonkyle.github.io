@@ -284,7 +284,15 @@ section {
   height: auto;
 }
 
+.aboutpage {
+  display: flex;
+  flex-direction: row;
+}
 
+.rotate {
+  width: 50%;
+  height: auto;
+}
 
 
 
@@ -338,6 +346,27 @@ section {
     width: 99%;
     height: auto;
     font-size: 100%;
+  }
+
+  .aboutpage {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rotate {
+    width: 100%;
+    height: auto;
+  }
+
+  .bio {
+    font-size: 50%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    font-size: 90%;
   }
 
 }

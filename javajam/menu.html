@@ -14,6 +14,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/common.js"></script>
 </head>
 
 <body>
@@ -38,7 +40,8 @@
       <h2>Coffee at JavaJam</h2>
       <p>
         Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our
-        Mug Club and get a 10% discount on each cup of coffee you purchase — ask the barista for details.
+        <a href="#" id="mug">Mug Club</a> and get a 10% discount on each cup of coffee you purchase — ask the barista
+        for details.
       </p>
 
       <div id="flow">
@@ -56,11 +59,19 @@
             <td>Sweetened espresso blended with icy-cold milk and served in a chilled glass.<br>Single $5.00 Double $6.
             </td>
         </table>
-    </div>
+      </div>
     </main>
     <footer>
       Copyright &copy; 2022 JavaJam Coffee Bar <br />
       <a href="mailto:kyle@olson.com">Email: kyle@olson.com</a>
+
+      <div>
+        <p id="dateupdate"></p>
+        <script src="js/dateupdate.js">
+
+        </script>
+      </div>
+
     </footer>
   </div>
 </body>
