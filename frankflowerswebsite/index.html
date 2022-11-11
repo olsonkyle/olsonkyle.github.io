@@ -28,7 +28,7 @@
 
 
     <header>
-      <a class="logo" href="index.html"> <img src="photos/fflogolightblue.png" alt="Frank Flowers Logo"></a> &nbsp;
+      <a class="logo" href="index.html"> <img src="photos/fflogolightblue.png" alt="Frank Flowers Logo"></a>
     </header>
     <nav>
       <!-- <a class="logo" href="index.html"> <img src="photos/fflogo.png" alt="Frank Flowers Logo" width="15%"
@@ -37,13 +37,40 @@
         <li><a href="index.html">HOME</a></li>
         <!-- this page has the lastest release and the links to listen -->
         <li><a href="links.html">MUSIC</a></li>
-        
-          <!-- this has a list of all the releases in order and tidbits of info on each of them -->
+
+        <!-- this has a list of all the releases in order and tidbits of info on each of them -->
         <li><a href="videos.html">VIDEOS</a></li>
         <li><a href="tour.html">TOUR</a></li>
         <li><a href="shop.html">MERCH</a></li>
       </ul>
+      <span class="hamburger" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+      <a class="phonelogo" href="index.html"> FRANK FLOWERS</a>
     </nav>
+
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="index.html">HOME</a>
+        <!-- this page has the lastest release and the links to listen -->
+        <a href="links.html">MUSIC</a>
+        <!-- this has a list of all the releases in order and tidbits of info on each of them -->
+        <a href="videos.html">VIDEOS</a>
+        <a href="tour.html">TOUR</a>
+        <a href="shop.html">MERCH</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="subscribe.html">SUBSCRIBE</a>
+        <a href="https://www.instagram.com/frankflowersmusic/" target="_blank"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@frankflowersmusic" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.youtube.com/channel/UC_ycqElms6aaaDUrXwalC6w" target="_blank"><i
+            class="fa-brands fa-youtube"></i></a>
+        <a href="index.html" id="copyrighttext"> Copyright &copy; 2022 Frank Flowers</a>
+      </div>
+    </div>
+    <script src="js/overlay.js"></script>
 
 
 
@@ -58,8 +85,8 @@
             target="_blank"><i class="fa-brands fa-spotify"></i></a>
           <a href="https://music.apple.com/us/artist/frank-flowers/1585920083" target="_blank"><i
               class="fa-brands fa-apple"></i></a>
-          <a id="amazonlink" href="https://www.amazon.com/music/player/artists/B09G9CC6YH/frank-flowers" target="_blank"><i
-              class="fa-brands fa-amazon"></i></a>
+          <a id="amazonlink" href="https://www.amazon.com/music/player/artists/B09G9CC6YH/frank-flowers"
+            target="_blank"><i class="fa-brands fa-amazon"></i></a>
           <a id="youtubelink" href="https://music.youtube.com/channel/UCejJSwiKf66sc8wRnF-vB-Q" target="_blank"><i
               class="fa-brands fa-youtube"></i></a>
           <a id="cloudlink" href="https://soundcloud.com/kyle-olson-998885641" target="_blank"><i
@@ -83,8 +110,7 @@
       <a href="https://music.apple.com/us/artist/frank-flowers/1585920083" target="_blank"><i
           class="fa-brands fa-apple"></i></a>
 
-      <br>
-      Copyright &copy; 2022 Frank Flowers <br />
+      <p class="bigpagecopyright">Copyright &copy; 2022 Frank Flowers</p>
       <!-- add links here again -->
     </footer>
   </div>
