@@ -145,19 +145,17 @@ footer a {
 .iframecontainer {
   position: relative;
   width: 100%;
+  height: 100%;
   padding-bottom: 56.25%;
-  
 }
 
 
 .iframecontainer iframe {
   position: absolute;
   top: 3%;
-  left: 15%;
-  width: 70%;
-  height: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  left: 23%;
+  width: 55%;
+  height: 55%;
 }
 
 p {
@@ -438,6 +436,7 @@ section {
   .hamburger {
     display: inline;
     font-size: 250%;
+    vertical-align: top;
   }
 
   nav ul li {
@@ -566,6 +565,7 @@ section {
   .hamburger {
     display: inline;
     font-size: 250%;
+    float: left;
   }
 
   nav ul li {
@@ -629,7 +629,7 @@ section {
 
   .phonelogo {
     display: inline;
-    width: 70%;
+    width: 60%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -710,9 +710,7 @@ section {
     width: 100%;
   }
 
-  .iframecontainer {
-    margin-top: 20%;
-  }
+ 
 
   .sub {
     font-size: 60%;
@@ -729,6 +727,23 @@ section {
   .mySlides {
     display: none;
     width: 100%;
+  }
+
+
+  .iframecontainer {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    
+  }
+  
+  
+  .iframecontainer iframe {
+    position: absolute;
+    top: 3%;
+    left: 16%;
+    width: 70%;
+    height: 70%;
   }
 
 }
