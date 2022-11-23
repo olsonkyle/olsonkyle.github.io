@@ -253,6 +253,7 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  margin: 3%;
 }
 
 
@@ -350,6 +351,8 @@ section {
 
 
 
+
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -415,7 +418,20 @@ section {
 
 
 
+@media (max-width: 1360px) {
+  .aboutpage {
+    display: flex;
+    flex-direction: column;
+  }
 
+ 
+
+  .bio {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 
 
@@ -527,7 +543,7 @@ section {
   .linkspage {
     display: flex;
     flex-flow: column;
-    font-size: 270%;
+    font-size: 150%;
   }
 
 }
@@ -657,7 +673,7 @@ section {
   .linkspage {
     display: flex;
     flex-flow: column;
-    font-size: 270%;
+    font-size: 120%;
   }
 
   #table {
