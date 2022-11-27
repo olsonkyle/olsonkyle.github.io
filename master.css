@@ -581,7 +581,9 @@ section {
   .hamburger {
     display: inline;
     font-size: 250%;
-    float: left;
+    vertical-align: top;
+    padding: .5%;
+    padding-top: 2.5%;
   }
 
   nav ul li {
@@ -645,7 +647,7 @@ section {
 
   .phonelogo {
     display: inline;
-    width: 60%;
+    width: 55%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
