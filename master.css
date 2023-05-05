@@ -100,6 +100,7 @@ main a {
   padding-right: 1.5%;
 }
 
+
 .linkspage {
   padding-top: 5%;
 }
@@ -360,6 +361,66 @@ section {
 }
 
 
+.releaseimage {
+  margin-top: 3%;
+  border: 2.5px solid #000000;
+  width: 25%;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.releaseimage:hover {
+  transform: scale(1.1);
+}
+
+
+.releasepageimage {
+  margin-top: 2%;
+  border: 2.5px solid #000000;
+  width: 33%;
+  height: auto;
+
+}
+
+.creditpara_container {
+  margin: 0 auto; /* add this line to center the container */
+  max-width: 960px; /* add this line to limit the container width */
+}
+
+.creditspara {
+  text-align: left;
+  font-size: 65%;
+}
+
+.aboutpara {
+  text-align: left;
+  font-size: 65%;
+  margin-bottom: 4%;
+  max-width: 1200px; /* add this line to limit the container width */
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+  margin-top: 3%;
+  margin: 0 auto; /* add this line to center the container */
+  max-width: 960px; /* add this line to limit the container width */
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: left;
+  font-size: 65%;
+}
+
+.aboutheader {
+  text-align: left;
+}
+
+
 
 
 
@@ -439,7 +500,7 @@ section {
     flex-direction: column;
   }
 
- 
+
 
   .bio {
     width: 85%;
@@ -549,7 +610,7 @@ section {
     display: none;
   } */
 
-  
+
   figure figcaption a {
     font-size: 200%;
     margin: 1%;
@@ -743,7 +804,7 @@ section {
     width: 100%;
   }
 
- 
+
 
   .sub {
     font-size: 60%;
@@ -767,10 +828,10 @@ section {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
-    
+
   }
-  
-  
+
+
   .iframecontainer iframe {
     position: absolute;
     top: 3%;
