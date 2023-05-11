@@ -383,8 +383,10 @@ section {
 }
 
 .creditpara_container {
-  margin: 0 auto; /* add this line to center the container */
-  max-width: 960px; /* add this line to limit the container width */
+  margin: 0 auto;
+  /* add this line to center the container */
+  max-width: 960px;
+  /* add this line to limit the container width */
 }
 
 .creditspara {
@@ -396,7 +398,8 @@ section {
   text-align: left;
   font-size: 65%;
   margin-bottom: 4%;
-  max-width: 1200px; /* add this line to limit the container width */
+  max-width: 1200px;
+  /* add this line to limit the container width */
 }
 
 
@@ -406,8 +409,10 @@ section {
   grid-gap: 20px;
   text-align: center;
   margin-top: 3%;
-  margin: 0 auto; /* add this line to center the container */
-  max-width: 960px; /* add this line to limit the container width */
+  margin: 0 auto;
+  /* add this line to center the container */
+  max-width: 960px;
+  /* add this line to limit the container width */
 }
 
 .grid-item {
@@ -421,9 +426,26 @@ section {
 }
 
 
+.button {
+  display: inline-block;
+  padding: 1% 2%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: solid;
+  border-radius: 4px;
+  font-size: 75%;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 
-
+.mixform {
+  width: 100%;
+  height: 1250px; /* or adjust as needed */
+}
 
 
 
@@ -520,7 +542,7 @@ section {
 
 
 
-@media (max-width: 1050px) {
+@media (max-width: 1215px) {
   header {
     display: none;
   }
@@ -638,7 +660,20 @@ section {
 
 
 
+@media (max-width: 940px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+    margin-top: 3%;
+    margin: 0 auto;
+    /* add this line to center the container */
+    max-width: 960px;
+    /* add this line to limit the container width */
+  }
 
+}
 
 
 
@@ -839,5 +874,46 @@ section {
     width: 70%;
     height: 70%;
   }
+
+
+
+
+
+
+
+
+  .aboutpara {
+    text-align: left;
+    font-size: 50%;
+    margin-bottom: 4%;
+    max-width: 1200px;
+    /* add this line to limit the container width */
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+    margin-top: 3%;
+    margin: 0 auto;
+    /* add this line to center the container */
+    max-width: 960px;
+    /* add this line to limit the container width */
+  }
+
+  .grid-item {
+    padding: 20px;
+    text-align: left;
+    font-size: 65%;
+  }
+
+
+
+
+
+
+
 
 }
