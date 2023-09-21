@@ -282,6 +282,11 @@ input[type=text] {
   text-align: left;
 }
 
+.ticket-link {
+  font-size: 85%;
+}
+
+
 
 
 #table td,
@@ -444,12 +449,20 @@ section {
 
 .mixform {
   width: 100%;
-  height: 1250px; /* or adjust as needed */
+  height: 1250px;
+  /* or adjust as needed */
 }
 
 
 .presavelink {
   font-size: 100%;
+}
+
+
+.la_live {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
 }
 
 
